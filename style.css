@@ -1,0 +1,370 @@
+*{
+    margin:0px;
+    padding:opx;
+}
+
+.main {
+    width:100%;
+    height:600px;  
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    width:100%;
+    height:50px;
+    background-color: rgba(117, 54, 8, 0.393);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    width:300px;
+    height:50px;
+    display: flex;
+}
+
+.logo img{
+    width:100px;
+    height:55px;
+}
+
+.logo p{
+    font-weight: bold;
+    font-size:20px;
+    color:white;
+    margin-top: 20px;
+}
+
+.nav-items{
+    width:500px;
+    height:50px;
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:30px;
+    
+    
+}
+
+li{
+  font-weight: bold;
+  font-size:18px;
+  color:white;
+  margin-top:20px;
+}
+
+.buy-btn i{
+    width:70px;
+    height:70px;
+
+}
+
+.buy-btn button{
+    width:100px;
+    height:40px;
+    background-color: chocolate;
+    border:none;
+    border-radius: 20px;
+    margin-top:6px;
+    font-size:15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* second-part*/
+
+.sec-part{
+    width:60%;
+    height:400px;
+    margin-top:200px;
+}
+
+.sec-part h1{
+    font-size:40px;
+    color: white;
+    margin-left:50px;
+}
+
+.sec-part p{
+    font-size:20px;
+    color: white;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.sec-part button{
+    width:100px;
+    height:40px;
+    border-radius: 20px;
+    background-color: chocolate;
+    border: none;
+    margin-left:50px;
+    margin-top:10px;
+    font-size:15px;
+    color: white;
+}
+
+/* Third part */
+
+.third-part{
+    width:100%;
+    height:350px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-left{
+    width:40%;
+    height:400px;
+    background-color: aliceblue;
+    margin-left:20px;
+    margin-top:10px;
+    border-radius: 5px;
+}
+
+.third-left .p1{
+    font-size:15px;
+    color:black;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+.third-left .p2{
+    font-size:20px;
+    color:black;
+    margin-left:30px;
+    margin-top:40px;
+    
+}
+
+.third-left h1{
+    font-size:50px;
+    color:black;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+.third-left button{
+    width:100px;
+    height:50px;
+    background-color: chocolate;;
+    border: none;
+    border-radius: 20px;
+    font-size:15px;
+    color:white;
+    margin-left:30px;
+    margin-top:70px;
+}
+
+.third-right{
+    width:60%;
+    height:400px;
+    background-color: aliceblue;
+    margin-right:20px;
+    margin-top:10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-right .image1{
+    width:200px;
+    height:300px;
+    margin-top:30px;
+    border-radius: 10px;
+
+}
+
+.third-right .image2{
+    width:200px;
+    height:300px;
+    margin-top:30px;
+    border-radius: 10px;
+    position: relative;
+    top:25px;
+}
+
+.third-right .image3{
+    width:200px;
+    height: 300px;
+    margin-top:30px;
+    border-radius: 10px;
+}
+
+/* Fourth part */
+
+.fourth-part{
+   width:100%;
+   height:500px;
+   background-color: white;
+   margin-top:80px;
+}
+
+.fourth-part h4{
+    font-size:40px;
+    color: grey;
+}
+
+
+
+.card-box{
+    width:100%;
+    height:400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fouth-card{
+    width:300px;
+    height:360px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    margin-top:30px;
+    
+}
+
+.all-card{
+    width: 200px;
+    height:250px;
+}
+
+.fourth-part img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left:90px;
+    margin-top:20px;
+}
+
+.fourth-part h2{
+    font-size:25px;
+    margin-left:90px;
+    color: black;
+}
+
+.fourth-part p{
+    font-size: 18px;
+    margin-left:15px;
+    color: black;
+}
+
+/* last part */
+.last-part {
+    width:100%px;
+    height:600px;
+    background-color: white;
+}
+
+.last-part h1{
+    font-size:40px;
+    color: gray;
+}
+
+.last-box{
+    width:100%;
+    height:500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last-card{
+    width:400px;
+    height: 350px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    margin-top:40px;
+}
+
+.last-card img{
+   width:400px;
+   height:150px;
+   border-radius: 20px;
+}
+
+.last-card h3{
+    font-size:20px;
+    margin-left:30px;
+}
+
+.last-card p{
+    font-size:15px;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+.last-card button{
+    width:150px;
+    height:40px;
+    background-color: chocolate;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left:30px;
+    margin-top:20px;
+}
+ 
+/* footer part */
+
+.footer-part{
+    width:100%;
+    height:350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-card{
+    width:250px;
+    height: 300px;
+    margin-top:40px;
+}
+
+.footer-card h3{
+    font-size:30px;
+    color: chocolate;
+    margin-left: 20px;
+    margin-top:40px;
+}
+
+.footer-card p{
+    font-size:20px;
+    color: white;
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+.footer-card input{
+    font-size:16px;
+    color: black;
+    margin-left:30px;
+    margin-top:30px;
+    border: none;
+    border-bottom: 1px solid chocolate;
+}
+
+.footer-btn{
+    width:150px;
+    height:40px;
+    border: none;
+    background-color: chocolate;
+    font-size:15px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top:10px;
+}
+
+
+
+
